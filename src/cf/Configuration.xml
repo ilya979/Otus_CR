@@ -542,6 +542,7 @@
 			<InformationRegister>СостояниеИсходящихПисем</InformationRegister>
 			<InformationRegister>Характеристики</InformationRegister>
 			<InformationRegister>МобильныеОтчеты</InformationRegister>
+			<InformationRegister>МРОТПоРегионам</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ТоварныеЗапасы</AccumulationRegister>
