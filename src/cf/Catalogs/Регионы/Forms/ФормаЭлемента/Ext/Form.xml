@@ -18,6 +18,12 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="РегиональныеУсловия" id="7">
+			<DataPath>Объект.РегиональныеУсловия</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РегиональныеУсловияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РегиональныеУсловияРасширеннаяПодсказка" id="9"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
