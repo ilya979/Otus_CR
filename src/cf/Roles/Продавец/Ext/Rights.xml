@@ -2177,6 +2177,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>ConfigurationExtensionsAdministration</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>InteractiveOpenExtDataProcessors</name>
 			<value>true</value>
 		</right>
