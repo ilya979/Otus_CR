@@ -20,44 +20,6 @@
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ГруппаКоличествоДней" id="18">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа количество дней</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа количество дней</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаКоличествоДнейРасширеннаяПодсказка" id="19"/>
-			<ChildItems>
-				<InputField name="КоличествоДней" id="1">
-					<DataPath>КоличествоДней</DataPath>
-					<SpinButton>true</SpinButton>
-					<MinValue xsi:type="xs:decimal">1</MinValue>
-					<ContextMenu name="КоличествоДнейКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="КоличествоДнейРасширеннаяПодсказка" id="3"/>
-					<Events>
-						<Event name="OnChange">КоличествоДнейПриИзменении</Event>
-					</Events>
-				</InputField>
-				<LabelField name="КоличествоДнейСтрока" id="15">
-					<DataPath>КоличествоДнейСтрока</DataPath>
-					<Enabled>false</Enabled>
-					<TitleLocation>None</TitleLocation>
-					<ContextMenu name="КоличествоДнейСтрокаКонтекстноеМеню" id="16"/>
-					<ExtendedTooltip name="КоличествоДнейСтрокаРасширеннаяПодсказка" id="17"/>
-				</LabelField>
-			</ChildItems>
-		</UsualGroup>
 		<UsualGroup name="ГруппаИнтервалПроверки" id="20">
 			<Title>
 				<v8:item>
@@ -99,6 +61,44 @@
 					<TitleLocation>None</TitleLocation>
 					<ContextMenu name="ИнтервалПроверкиСтрокаКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ИнтервалПроверкиСтрокаРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКоличествоДней" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа количество дней</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа количество дней</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКоличествоДнейРасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<InputField name="КоличествоДней" id="1">
+					<DataPath>КоличествоДней</DataPath>
+					<SpinButton>true</SpinButton>
+					<MinValue xsi:type="xs:decimal">1</MinValue>
+					<ContextMenu name="КоличествоДнейКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КоличествоДнейРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">КоличествоДнейПриИзменении</Event>
+					</Events>
+				</InputField>
+				<LabelField name="КоличествоДнейСтрока" id="15">
+					<DataPath>КоличествоДнейСтрока</DataPath>
+					<Enabled>false</Enabled>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="КоличествоДнейСтрокаКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="КоличествоДнейСтрокаРасширеннаяПодсказка" id="17"/>
 				</LabelField>
 			</ChildItems>
 		</UsualGroup>
@@ -169,6 +169,10 @@
 				<v8:Type>cfg:ConstantsSet</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Объект.РаботаСТорговымОборудованием</Field>
+				<Field>Объект.УчетПоСкладам</Field>
+			</UseAlways>
 		</Attribute>
 		<Attribute name="КоличествоДнейСтрока" id="3">
 			<Title>

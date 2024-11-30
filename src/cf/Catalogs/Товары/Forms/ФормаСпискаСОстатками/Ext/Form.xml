@@ -86,17 +86,17 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="13"/>
 					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="20"/>
 				</LabelField>
-				<LabelField name="Код" id="4">
-					<DataPath>СправочникСписок.Code</DataPath>
-					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
-					<ContextMenu name="КодКонтекстноеМеню" id="12"/>
-					<ExtendedTooltip name="КодExtendedTooltip" id="21"/>
-				</LabelField>
 				<LabelField name="Артикул" id="7">
 					<DataPath>СправочникСписок.Артикул</DataPath>
 					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 					<ContextMenu name="АртикулКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="АртикулExtendedTooltip" id="22"/>
+				</LabelField>
+				<LabelField name="Код" id="4">
+					<DataPath>СправочникСписок.Code</DataPath>
+					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+					<ContextMenu name="КодКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="КодExtendedTooltip" id="21"/>
 				</LabelField>
 				<LabelField name="Количество" id="8">
 					<DataPath>СправочникСписок.Количество</DataPath>

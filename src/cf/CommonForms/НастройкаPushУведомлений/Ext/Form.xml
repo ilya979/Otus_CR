@@ -137,57 +137,6 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="APNS" id="18">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>APNS</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>APNS</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>NormalSeparation</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="APNSРасширеннаяПодсказка" id="19"/>
-							<ChildItems>
-								<CheckBoxField name="ИспользоватьAPNS" id="38">
-									<DataPath>Объект.ИспользоватьAPNS</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Использовать APNs (для IOS устройств)</v8:content>
-										</v8:item>
-									</Title>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="ИспользоватьAPNSКонтекстноеМеню" id="39"/>
-									<ExtendedTooltip name="ИспользоватьAPNSРасширеннаяПодсказка" id="40"/>
-								</CheckBoxField>
-								<UsualGroup name="Группа1" id="25">
-									<Group>Horizontal</Group>
-									<Behavior>Usual</Behavior>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="26"/>
-									<ChildItems>
-										<Button name="ЗагрузитьСертификат" id="20">
-											<Type>UsualButton</Type>
-											<CommandName>Form.Command.ЗагрузитьСертификат</CommandName>
-											<ExtendedTooltip name="ЗагрузитьСертификатРасширеннаяПодсказка" id="21"/>
-										</Button>
-										<LabelField name="СертификатЗагружен" id="22">
-											<DataPath>СертификатЗагружен</DataPath>
-											<ContextMenu name="СертификатЗагруженКонтекстноеМеню" id="23"/>
-											<ExtendedTooltip name="СертификатЗагруженРасширеннаяПодсказка" id="24"/>
-										</LabelField>
-									</ChildItems>
-								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
 						<UsualGroup name="WNS" id="48">
 							<Title>
 								<v8:item>
@@ -241,6 +190,57 @@
 									<ContextMenu name="КлючПриложенияWNSКонтекстноеМеню" id="54"/>
 									<ExtendedTooltip name="КлючПриложенияWNSРасширеннаяПодсказка" id="55"/>
 								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="APNS" id="18">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>APNS</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>APNS</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="APNSРасширеннаяПодсказка" id="19"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьAPNS" id="38">
+									<DataPath>Объект.ИспользоватьAPNS</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Использовать APNs (для IOS устройств)</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИспользоватьAPNSКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ИспользоватьAPNSРасширеннаяПодсказка" id="40"/>
+								</CheckBoxField>
+								<UsualGroup name="Группа1" id="25">
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="26"/>
+									<ChildItems>
+										<Button name="ЗагрузитьСертификат" id="20">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ЗагрузитьСертификат</CommandName>
+											<ExtendedTooltip name="ЗагрузитьСертификатРасширеннаяПодсказка" id="21"/>
+										</Button>
+										<LabelField name="СертификатЗагружен" id="22">
+											<DataPath>СертификатЗагружен</DataPath>
+											<ContextMenu name="СертификатЗагруженКонтекстноеМеню" id="23"/>
+											<ExtendedTooltip name="СертификатЗагруженРасширеннаяПодсказка" id="24"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -304,6 +304,8 @@
 				<Field>Объект.КлючCервераОтправителяFCM</Field>
 				<Field>Объект.КлючПриложенияWNS</Field>
 				<Field>Объект.ЛогинСервисаПередачиPushУведомлений</Field>
+				<Field>Объект.РаботаСТорговымОборудованием</Field>
+				<Field>Объект.УчетПоСкладам</Field>
 			</UseAlways>
 		</Attribute>
 		<Attribute name="АдресСертификата" id="2">

@@ -101,6 +101,11 @@
 					<ContextMenu name="Курс_КонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="КурсExtendedTooltip" id="15"/>
 				</LabelField>
+				<LabelField name="Период" id="25">
+					<DataPath>Список.Period</DataPath>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="27"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

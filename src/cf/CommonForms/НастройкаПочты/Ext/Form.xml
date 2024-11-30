@@ -87,74 +87,6 @@
 						</CheckBoxField>
 					</ChildItems>
 				</Page>
-				<Page name="ГруппаНастройкаPOP3Сервера" id="28">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка POP3 сервера</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа настройка POP3 сервера</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ГруппаНастройкаPOP3СервераExtendedTooltip" id="96"/>
-					<ChildItems>
-						<InputField name="АдресPOP3Сервера" id="68">
-							<DataPath>Объект.АдресPOP3Сервера</DataPath>
-							<ContextMenu name="АдресPOP3СервераКонтекстноеМеню" id="69"/>
-							<ExtendedTooltip name="АдресPOP3СервераExtendedTooltip" id="97"/>
-						</InputField>
-						<InputField name="ПортPOP3" id="70">
-							<DataPath>Объект.ПортPOP3</DataPath>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>0 - устанавливать порт автоматически</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
-							<ContextMenu name="ПортPOP3КонтекстноеМеню" id="71"/>
-							<ExtendedTooltip name="ПортPOP3РасширеннаяПодсказка" id="98"/>
-						</InputField>
-						<CheckBoxField name="POP3SSL" id="112">
-							<DataPath>Объект.SSLPOP3</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>SSL</v8:content>
-								</v8:item>
-							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="POP3SSLКонтекстноеМеню" id="113"/>
-							<ExtendedTooltip name="POP3SSLРасширеннаяПодсказка" id="114"/>
-						</CheckBoxField>
-						<InputField name="ПользовательPOP3" id="72">
-							<DataPath>Объект.ПользовательPOP3</DataPath>
-							<ContextMenu name="ПользовательPOP3КонтекстноеМеню" id="73"/>
-							<ExtendedTooltip name="ПользовательPOP3ExtendedTooltip" id="99"/>
-						</InputField>
-						<InputField name="ПарольPOP3" id="74">
-							<DataPath>Объект.ПарольPOP3</DataPath>
-							<ContextMenu name="ПарольPOP3КонтекстноеМеню" id="75"/>
-							<ExtendedTooltip name="ПарольPOP3ExtendedTooltip" id="100"/>
-						</InputField>
-						<CheckBoxField name="ТолькоЗащищеннаяАутентификацияPOP3" id="118">
-							<DataPath>Объект.ТолькоЗащищеннаяАутентификацияPOP3</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Защищенная аутентификация</v8:content>
-								</v8:item>
-							</Title>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ТолькоЗащищеннаяАутентификацияPOP3КонтекстноеМеню" id="119"/>
-							<ExtendedTooltip name="ТолькоЗащищеннаяАутентификацияPOP3РасширеннаяПодсказка" id="120"/>
-						</CheckBoxField>
-					</ChildItems>
-				</Page>
 				<Page name="ГруппаНастройкаIMAPСервера" id="76">
 					<Title>
 						<v8:item>
@@ -223,6 +155,74 @@
 						</CheckBoxField>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаНастройкаPOP3Сервера" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка POP3 сервера</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа настройка POP3 сервера</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаНастройкаPOP3СервераExtendedTooltip" id="96"/>
+					<ChildItems>
+						<InputField name="АдресPOP3Сервера" id="68">
+							<DataPath>Объект.АдресPOP3Сервера</DataPath>
+							<ContextMenu name="АдресPOP3СервераКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="АдресPOP3СервераExtendedTooltip" id="97"/>
+						</InputField>
+						<InputField name="ПортPOP3" id="70">
+							<DataPath>Объект.ПортPOP3</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>0 - устанавливать порт автоматически</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+							<ContextMenu name="ПортPOP3КонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="ПортPOP3РасширеннаяПодсказка" id="98"/>
+						</InputField>
+						<CheckBoxField name="POP3SSL" id="112">
+							<DataPath>Объект.SSLPOP3</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>SSL</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="POP3SSLКонтекстноеМеню" id="113"/>
+							<ExtendedTooltip name="POP3SSLРасширеннаяПодсказка" id="114"/>
+						</CheckBoxField>
+						<InputField name="ПользовательPOP3" id="72">
+							<DataPath>Объект.ПользовательPOP3</DataPath>
+							<ContextMenu name="ПользовательPOP3КонтекстноеМеню" id="73"/>
+							<ExtendedTooltip name="ПользовательPOP3ExtendedTooltip" id="99"/>
+						</InputField>
+						<InputField name="ПарольPOP3" id="74">
+							<DataPath>Объект.ПарольPOP3</DataPath>
+							<ContextMenu name="ПарольPOP3КонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ПарольPOP3ExtendedTooltip" id="100"/>
+						</InputField>
+						<CheckBoxField name="ТолькоЗащищеннаяАутентификацияPOP3" id="118">
+							<DataPath>Объект.ТолькоЗащищеннаяАутентификацияPOP3</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Защищенная аутентификация</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ТолькоЗащищеннаяАутентификацияPOP3КонтекстноеМеню" id="119"/>
+							<ExtendedTooltip name="ТолькоЗащищеннаяАутентификацияPOP3РасширеннаяПодсказка" id="120"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 		<CheckBoxField name="ИспользоватьIMAP" id="87">
@@ -244,6 +244,10 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.РаботаСТорговымОборудованием</Field>
+				<Field>Объект.УчетПоСкладам</Field>
+			</UseAlways>
 		</Attribute>
 	</Attributes>
 	<Parameters>
