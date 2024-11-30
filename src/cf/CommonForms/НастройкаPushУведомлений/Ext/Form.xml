@@ -304,6 +304,8 @@
 				<Field>Объект.КлючCервераОтправителяFCM</Field>
 				<Field>Объект.КлючПриложенияWNS</Field>
 				<Field>Объект.ЛогинСервисаПередачиPushУведомлений</Field>
+				<Field>Объект.РаботаСТорговымОборудованием</Field>
+				<Field>Объект.УчетПоСкладам</Field>
 			</UseAlways>
 		</Attribute>
 		<Attribute name="АдресСертификата" id="2">

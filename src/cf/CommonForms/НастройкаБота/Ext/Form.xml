@@ -169,6 +169,10 @@
 				<v8:Type>cfg:ConstantsSet</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Объект.РаботаСТорговымОборудованием</Field>
+				<Field>Объект.УчетПоСкладам</Field>
+			</UseAlways>
 		</Attribute>
 		<Attribute name="КоличествоДнейСтрока" id="3">
 			<Title>
